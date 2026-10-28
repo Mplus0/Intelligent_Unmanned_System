@@ -1,0 +1,15 @@
+camera:
+  ros__parameters:
+    width: 1920
+    height: 1080
+    fps: 30
+    pipe_id: 0
+    video_index: -1
+    channel: 2
+    frame_id: camera_optical_frame
+    preview_enabled: true
+    preview_host: 0.0.0.0
+    preview_port: 8080
+    jpeg_quality: 80
+    preview_fps: 10
+    save_dir: ~/camera_images
