@@ -1,0 +1,11 @@
+{
+  "name": "tuned_mlp",
+  "architecture": "MLP",
+  "epochs": 15,
+  "batch_size": 64,
+  "optimizer": "SGD",
+  "lr": 0.03,
+  "momentum": 0.9,
+  "weight_decay": 0.0001,
+  "scheduler": true
+}

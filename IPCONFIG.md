@@ -11,8 +11,13 @@
 
 - **WiFi 名称：** `SZU_WLAN`
 - **RDK X5 IP：** `暂无`
+  
+### 3. iPhone WiFi
 
-### 3. Visincept WiFi
+- **WiFi 名称：** `Visincept-Office`
+- **RDK X5 IP：** `172.20.10.2`
+
+### 4. Visincept WiFi
 
 - **WiFi 名称：** `Visincept-Office`
 - **RDK X5 IP：** `172.16.6.16`

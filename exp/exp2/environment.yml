@@ -1,0 +1,13 @@
+name: Unmanned_systems
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch==2.5.1+cpu
+      - torchvision==0.20.1+cpu
+      - numpy==1.26.4
+      - matplotlib==3.10.9
+      - pillow==12.3.0

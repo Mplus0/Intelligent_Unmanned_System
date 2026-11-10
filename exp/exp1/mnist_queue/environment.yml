@@ -1,0 +1,7 @@
+name: Unmanned_systems
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.26
+  - opencv=4.10

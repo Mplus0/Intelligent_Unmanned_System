@@ -1,0 +1,26 @@
+[
+  {
+    "name": "baseline",
+    "parameters": 535818,
+    "epochs": 10,
+    "accuracy_percent": 97.95,
+    "test_loss": 0.06668816450834274,
+    "seconds": 70.75
+  },
+  {
+    "name": "tuned_mlp",
+    "parameters": 535818,
+    "epochs": 15,
+    "accuracy_percent": 98.58,
+    "test_loss": 0.05289918164014816,
+    "seconds": 105.7
+  },
+  {
+    "name": "cnn",
+    "parameters": 206922,
+    "epochs": 10,
+    "accuracy_percent": 99.17,
+    "test_loss": 0.02480542250275612,
+    "seconds": 122.47
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "model": "baseline",
+    "reloaded_accuracy_percent": 97.94999957084656,
+    "all_10000_predictions_match": true
+  },
+  {
+    "model": "tuned_mlp",
+    "reloaded_accuracy_percent": 98.580002784729,
+    "all_10000_predictions_match": true
+  },
+  {
+    "model": "cnn",
+    "reloaded_accuracy_percent": 99.16999936103821,
+    "all_10000_predictions_match": true
+  }
+]

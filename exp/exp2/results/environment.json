@@ -1,0 +1,11 @@
+{
+  "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\conda_envs\\Unmanned_systems\\python.exe",
+  "torch": "2.5.1+cpu",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "device": "cpu",
+  "threads": 4,
+  "seed": 42,
+  "train_samples": 60000,
+  "test_samples": 10000
+}

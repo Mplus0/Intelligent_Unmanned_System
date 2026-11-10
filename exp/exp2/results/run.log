@@ -1,0 +1,39 @@
+2026-10-20 17:23:20,653 Starting baseline: {'name': 'baseline', 'architecture': 'MLP', 'epochs': 10, 'batch_size': 64, 'optimizer': 'SGD', 'lr': 0.01, 'momentum': 0.9, 'weight_decay': 0.0, 'scheduler': False}
+2026-10-20 17:23:27,374 baseline epoch 1/10 train_loss=0.38508 test_accuracy=94.71%
+2026-10-20 17:23:34,178 baseline epoch 2/10 train_loss=0.15559 test_accuracy=96.33%
+2026-10-20 17:23:41,135 baseline epoch 3/10 train_loss=0.10902 test_accuracy=96.88%
+2026-10-20 17:23:47,943 baseline epoch 4/10 train_loss=0.08725 test_accuracy=97.11%
+2026-10-20 17:23:55,551 baseline epoch 5/10 train_loss=0.07105 test_accuracy=96.59%
+2026-10-20 17:24:02,884 baseline epoch 6/10 train_loss=0.05707 test_accuracy=97.03%
+2026-10-20 17:24:10,544 baseline epoch 7/10 train_loss=0.04820 test_accuracy=97.52%
+2026-10-20 17:24:17,685 baseline epoch 8/10 train_loss=0.04221 test_accuracy=97.64%
+2026-10-20 17:24:24,562 baseline epoch 9/10 train_loss=0.03430 test_accuracy=97.97%
+2026-10-20 17:24:31,399 baseline epoch 10/10 train_loss=0.02850 test_accuracy=97.95%
+2026-10-20 17:24:33,438 Starting tuned_mlp: {'name': 'tuned_mlp', 'architecture': 'MLP', 'epochs': 15, 'batch_size': 64, 'optimizer': 'SGD', 'lr': 0.03, 'momentum': 0.9, 'weight_decay': 0.0001, 'scheduler': True}
+2026-10-20 17:24:40,472 tuned_mlp epoch 1/15 train_loss=0.31877 test_accuracy=95.11%
+2026-10-20 17:24:47,362 tuned_mlp epoch 2/15 train_loss=0.14839 test_accuracy=96.33%
+2026-10-20 17:24:54,374 tuned_mlp epoch 3/15 train_loss=0.10684 test_accuracy=96.81%
+2026-10-20 17:25:01,695 tuned_mlp epoch 4/15 train_loss=0.08099 test_accuracy=97.47%
+2026-10-20 17:25:09,014 tuned_mlp epoch 5/15 train_loss=0.06191 test_accuracy=96.82%
+2026-10-20 17:25:16,067 tuned_mlp epoch 6/15 train_loss=0.04785 test_accuracy=97.12%
+2026-10-20 17:25:22,829 tuned_mlp epoch 7/15 train_loss=0.03615 test_accuracy=97.71%
+2026-10-20 17:25:29,660 tuned_mlp epoch 8/15 train_loss=0.02529 test_accuracy=97.96%
+2026-10-20 17:25:36,426 tuned_mlp epoch 9/15 train_loss=0.01750 test_accuracy=98.05%
+2026-10-20 17:25:43,185 tuned_mlp epoch 10/15 train_loss=0.01286 test_accuracy=98.44%
+2026-10-20 17:25:50,210 tuned_mlp epoch 11/15 train_loss=0.00907 test_accuracy=98.53%
+2026-10-20 17:25:57,391 tuned_mlp epoch 12/15 train_loss=0.00683 test_accuracy=98.49%
+2026-10-20 17:26:04,683 tuned_mlp epoch 13/15 train_loss=0.00574 test_accuracy=98.48%
+2026-10-20 17:26:11,804 tuned_mlp epoch 14/15 train_loss=0.00516 test_accuracy=98.58%
+2026-10-20 17:26:19,141 tuned_mlp epoch 15/15 train_loss=0.00490 test_accuracy=98.58%
+2026-10-20 17:26:21,058 Starting cnn: {'name': 'cnn', 'architecture': 'CNN', 'epochs': 10, 'batch_size': 128, 'optimizer': 'Adam', 'lr': 0.001, 'momentum': 0.0, 'weight_decay': 0.0001, 'scheduler': True}
+2026-10-20 17:26:32,358 cnn epoch 1/10 train_loss=0.32126 test_accuracy=97.71%
+2026-10-20 17:26:43,218 cnn epoch 2/10 train_loss=0.08228 test_accuracy=98.37%
+2026-10-20 17:26:54,153 cnn epoch 3/10 train_loss=0.06067 test_accuracy=98.68%
+2026-10-20 17:27:05,764 cnn epoch 4/10 train_loss=0.04795 test_accuracy=98.95%
+2026-10-20 17:27:18,335 cnn epoch 5/10 train_loss=0.03968 test_accuracy=99.02%
+2026-10-20 17:27:31,292 cnn epoch 6/10 train_loss=0.03242 test_accuracy=99.17%
+2026-10-20 17:27:44,661 cnn epoch 7/10 train_loss=0.02800 test_accuracy=99.07%
+2026-10-20 17:27:57,381 cnn epoch 8/10 train_loss=0.02315 test_accuracy=99.12%
+2026-10-20 17:28:10,406 cnn epoch 9/10 train_loss=0.02176 test_accuracy=99.15%
+2026-10-20 17:28:23,525 cnn epoch 10/10 train_loss=0.01896 test_accuracy=99.17%
+2026-10-20 17:28:26,140 Completed: [{'name': 'baseline', 'parameters': 535818, 'epochs': 10, 'accuracy_percent': 97.95, 'test_loss': 0.06668816450834274, 'seconds': 70.75}, {'name': 'tuned_mlp', 'parameters': 535818, 'epochs': 15, 'accuracy_percent': 98.58, 'test_loss': 0.05289918164014816, 'seconds': 105.7}, {'name': 'cnn', 'parameters': 206922, 'epochs': 10, 'accuracy_percent': 99.17, 'test_loss': 0.02480542250275612, 'seconds': 122.47}]
